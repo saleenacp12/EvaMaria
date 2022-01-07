@@ -2,16 +2,30 @@ class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 Files.., 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍\n\n© @KoshikKumar17 and @RKrishnaa"""
     HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂
+<a href='https://telegra.ph/All-Commands-Lists-Of-This-Bot-10-30'> 𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄 </a> ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ...
+
+   <b> <u>‼️𝐌𝐲 𝐒𝐢𝐥𝐞𝐧𝐭 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬‼️</u> </b>
+<I>•Sυρρσɾƚ Aυƚσ Fιʅƚҽɾ.😘
+• Sυρρσɾƚ Mαɳυαʅ Fιʅƚҽɾ. Aʂ αʅҽɾƚ αɳԃ υɾl Ⴆυƚƚσɳʂ 🤓
+• Cαɳ ɠҽƚ υʂҽɾ'ʂ Iɳϝσ🙋🏻‍♂️
+• Fιʅҽ Sƚσɾҽ Fҽαƚυɾҽ Sυρρσɾƚҽԃ 😁
+• Sυρρσɾƚ Ⴆɾσαԃƈαʂƚιɳɠ Fҽαƚυɾҽʂ..📡
+• Bαɳ αɳԃ UɳႦαɳ Uʂҽɾʂ🚫
+• Lσɠ ƈԋαɳɳҽʅ Sυρρσɾƚҽԃ (Nσ Sραɱ)❌
+• Sυρρσɾƚʂ Mσvιҽ Sҽαɾƈԋ via IMDႦ 😊
+• Sυρρσɾƚ Iɳʅιɳҽ Sҽαɾƈԋ😋(Aυƚԋ Uʂҽɾʂ)</I>
 
 <b>@KoshikKumar17</b>"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/KoshikKumar17>@KoshikKumar</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
+✯ 🙄𝙻𝙸𝙱𝚁𝙰𝚁𝚈: <a href='https://docs.pyrogram.org'> ᴘʏʀᴏɢʀᴀᴍ </a>
+✯ 😛𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <a href='https://python.org'> ᴘʏᴛʜᴏɴ 𝟹.8.7 </a>
+✯ 😉𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://mongodb.com'> ᴍᴏɴɢᴏbᴅʙ </a>
+✯ 😊𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com'> 𝙷𝙴𝚁𝙾𝙺𝚄 </a>
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ ʂƚαႦʅҽ ]</b>
+✯ 😋 ᴍᴀᴊᴏʀ ᴜᴘᴅᴀᴛᴇ ᴅᴀᴛᴇ:- 10th January 2022
+😁Changelogs:- <a href='https://telegra.ph/All-Commands-Lists-Of-This-Bot-10-30'> 𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄 </a>"""
     SOURCE_TXT = """<b>NOTE:</b>
 Thanks 👍 to @TeamEvamaria for their repo...  
 
