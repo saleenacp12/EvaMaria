@@ -91,6 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_sticker("CAACAgUAAxkBAANPYdepY8PyNoV_eheqo2OtXeyCSFAAAsQEAALPhelWb0bi3B6RZtUeBA")
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -185,11 +186,6 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         )
-                    
-#test
-@Client.on_message(filters.command(['start']))
-async def start(client, message):
-    await message.reply_sticker("CAACAgUAAxkBAANPYdepY8PyNoV_eheqo2OtXeyCSFAAAsQEAALPhelWb0bi3B6RZtUeBA")
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
