@@ -405,6 +405,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('❤️ Latest Update ❤️', callback_data='changelogs')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -429,6 +431,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+#Testing
+    elif query.data == "changelogs":
+        buttons= [[
+            InlineKeyboardButton('🧑‍🦯'Back, callback_data='start'),
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.CHANGELOGS_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+#completed
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria'),
