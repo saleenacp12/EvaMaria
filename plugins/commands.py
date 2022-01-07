@@ -186,6 +186,11 @@ async def start(client, message):
         caption=f_caption,
         )
                     
+#test
+@Client.on_message(filters.command(['start']))
+async def start(client, message):
+    await update.reply_sticker("CAACAgUAAxkBAANPYdepY8PyNoV_eheqo2OtXeyCSFAAAsQEAALPhelWb0bi3B6RZtUeBA")
+
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
