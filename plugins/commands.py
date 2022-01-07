@@ -189,7 +189,7 @@ async def start(client, message):
 #test
 @Client.on_message(filters.command(['start']))
 async def start(client, message):
-    await update.reply_sticker("CAACAgUAAxkBAANPYdepY8PyNoV_eheqo2OtXeyCSFAAAsQEAALPhelWb0bi3B6RZtUeBA")
+    await message.reply_sticker("CAACAgUAAxkBAANPYdepY8PyNoV_eheqo2OtXeyCSFAAAsQEAALPhelWb0bi3B6RZtUeBA")
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
