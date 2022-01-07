@@ -232,11 +232,11 @@ async def log_file(bot, message):
 
 
 @Client.on_message(filters.command("changelogs")
-async def changelogs(bot, message):
+async def help(bot, message):
+      await bot.send_message(
       buttons = [[
              InlineKeyboardButton('❤️ Latest Update ❤️', callback_data='changelogs')
         ]]
-      await bot.send_message(
             text="**Click Below to get latest Changelogs 🙂😁**",
             reply_markup=reply_markup,
             parse_mode="markdown"
