@@ -231,17 +231,6 @@ async def log_file(bot, message):
         await message.reply(str(e))
 
 
-@Client.on_message(filters.command("changelogs")
-async def start(bot, message):
-      await bot.send_message(
-      buttons = [[
-             InlineKeyboardButton('❤️ Latest Update ❤️', callback_data='changelogs')
-        ]]
-            text="**Click Below to get latest Changelogs 🙂😁**",
-            reply_markup=reply_markup,
-            parse_mode="markdown"
-      )
-
 @Client.on_message(filters.command('delete') & filters.user(ADMINS))
 async def delete(bot, message):
     """Delete file from database"""
