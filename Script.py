@@ -125,6 +125,15 @@ This module only works for my admins(**@Koshikkumar17**)
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
 
 <b>@KoshikKumar17</b>"""
+    CHANGELOGS_TXT = """<b> 😁Hҽყ Fɾιҽɳԃʂ.. Hҽɾҽ ιʂ ƚԋҽ ʅαƚҽʂƚ Cԋαɳɠҽʅσɠʂ σϝ ƚԋιʂ Ⴆσƚ..🙂
+Cԋαɳɠҽʅσɠʂ:- 
+• Aԃԃҽԃ Fιʅҽ Sƚσɾҽ Bσƚ Fҽαƚυɾҽʂ.
+• Fιxҽԃ ʂσɱҽ Bυɠʂ.
+• Aԃԃҽԃ α ɳҽɯ Ⴆυƚƚσɳ (Cԋαɳɠҽʅσɠʂ)..
+Cʅιƈƙ /start ƚσ Sҽҽ </b>
+"""
+
+Dαƚҽ:- 8ƚԋ Jαɳυαɾყ 2022
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
