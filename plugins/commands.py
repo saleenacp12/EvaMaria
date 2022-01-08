@@ -240,16 +240,16 @@ async def channel_info(bot, message):
 
 #Another test
 @Client.on_message(filters.command("changelogs")
-async def start(_, m: Message):
-    await m.reply(f'😊Hello {message.from_user.mention},**Here is the latest __Update and Changelogs__ of this bot**',
-                  reply_markup=InlineKeyboardMarkup(
-                      [[
-                            InlineKeyboardButton(
-                                  f'{emoji.STAR} Latest Update {emoji.STAR}',
-                                  callback_data='changelogs')
-                        ]]
-                  ))
-
+async def start(client, message):
+      await message.reply_text(
+      buttons = [[
+             InlineKeyboardButton('❤️ Latest Update ❤️', callback_data='changelogs')
+        ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            text="**Click Below to get latest Changelogs 🙂😁**",
+            reply_markup=reply_markup,
+            parse_mode="markdown"
+      )
 
 @Client.on_message(filters.command('logs') & filters.user(ADMINS))
 async def log_file(bot, message):
