@@ -238,18 +238,6 @@ async def channel_info(bot, message):
         await message.reply_document(file)
         os.remove(file)
 
-#Another test
-@Client.on_message(filters.command("changelogs")
-async def start(client, message):
-      await message.reply_text(
-      buttons = [[
-             InlineKeyboardButton('❤️ Latest Update ❤️', callback_data='changelogs')
-        ]]
-            reply_markup = InlineKeyboardMarkup(buttons)
-            text="**Click Below to get latest Changelogs 🙂😁**",
-            reply_markup=reply_markup,
-            parse_mode="markdown"
-      )
 
 @Client.on_message(filters.command('logs') & filters.user(ADMINS))
 async def log_file(bot, message):
